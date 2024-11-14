@@ -1,0 +1,86 @@
+body{
+  font-family: "Shadows Into Light", cursive;
+      font-weight: 400;
+      font-style: normal;
+      background-image: linear-gradient(red, black); /* Optional: adjusts the image opacity */
+  .button {
+      
+      background-color: #5865F2;
+      border-radius: 100px;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      right: 1350; /* adjust to your desired position */
+      z-index: 1;
+      border: 1px solid #acb6b3;
+    }
+    .button2 {
+      background-color: #f99b1f;
+      border-radius: 100px;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      right: 1200; /* adjust to your desired position */
+      z-index: 1;
+      border: 1px solid #acb6b3;
+    }
+    .button3 {
+      background-color: #003c5c;
+      border-radius: 100px;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      right: 1068; /* adjust to your desired position */
+      z-index: 1;
+      border: 1px solid #acb6b3;
+    }
+    #logo{ 
+      position:fixed; 
+      top:0; 
+      left:0; 
+  
+  };
+  .container {
+    background-image: url("https://images-ext-1.discordapp.net/external/sa5SvymIkYmU2IWVWvVwEDy7Ydh-g787TbgnZ3xWMGA/https/cdn.discordapp.com/avatars/1050793734352146585/603c1b4459f9225a52f6cd258258a887.png?format=webp&quality=lossless"); /* Replace with your image URL */
+    background-size: cover; /* Optional: scales the image to cover the container */
+    background-position: center; /* Optional: centers the image horizontally and vertically */
+    opacity: 0.5; /* Optional: adjusts the image opacity */
+  }
+  #rcorners4 {
+      border-radius: 200px;
+      background: #73AD21;
+      padding: 25px; 
+      width: 200px;
+      height: 100px;
+      text-align: center;
+      font-size: large; 
+    }
+    .font {
+      font-family: "Shadows Into Light", cursive;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .pointer {cursor: pointer;}
+  
+}
