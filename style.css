@@ -51,9 +51,43 @@ body{
       cursor: pointer;
       position: absolute;
       top: 0;
-      right: 1068; /* adjust to your desired position */
+      right: 1050; /* adjust to your desired position */
       z-index: 1;
       border: 1px solid #acb6b3;
+    }
+    .button4 {
+      background-color: #8e9699;
+      border-radius: 100px;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      right: 900; /* adjust to your desired position */
+      z-index: 1;
+      border: 1px solid #98a09e;
+    }
+    .button5 {
+      background-color: #8e9699;
+      border-radius: 100px;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      right: 750; /* adjust to your desired position */
+      z-index: 1;
+      border: 1px solid #98a09e;
     }
     #logo{ 
       position:fixed; 
