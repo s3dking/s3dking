@@ -13,9 +13,22 @@ form.addEventListener('submit', async (e) => {
         color: 0x00ff00 
     };
 
+    const code = [`
+        const embed = {
+        title: ${data['title']},
+        description: ${data['desc']}, 
+        color: 0x00ff00 
+    };
+        `]
+
+    const codebed = {
+        title: 'Here is the code for the embed',
+        description: `\`\`\`\n${code}\n\`\`\``
+    }
+
 
     const payload = {
-        embeds: [embed]
+        embeds: [embed, codebed]
     };
 
     try {
